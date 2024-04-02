@@ -4,9 +4,7 @@ Sub MainForEachWorksheet()
 
     Dim csvWorkbook As Workbook
     Dim ws As Worksheet
-    Dim kpi_ws As Worksheet
-    Dim kpi_row As Integer
-
+gg
     'Open Workbook and save as CSV
     Workbooks.Open fileName:="C:\Users\aw474y\OneDrive - AT&T Mexico\Escritorio\rutina\1.xlsx"
     ActiveWorkbook.SaveAs fileName:="C:\Users\aw474y\OneDrive - AT&T Mexico\Escritorio\rutina\Ericsson-3G.csv", FileFormat:=xlCSV, _
@@ -247,9 +245,6 @@ Sub ProcessWorksheet(ws As Worksheet, ByRef kpi_ws As Worksheet, ByRef kpi_row A
             kpi_row = kpi_row + 1
         End If
     Next cell
-
-
-
 End Sub
 
 Sub RunProgram()
