@@ -8,7 +8,7 @@
 
 
 .Carrier is in diferent reports with the general query on redemy
-.A macro that runs a lot of info in ant site 
+.A macro that runs a lot of info in any site 
 .
 
 
