@@ -16,7 +16,7 @@ Sub MainProcedure()
 
     Application.EnableEvents = True
     Application.Calculation = xlCalculationAutomatic
-    Application.ScreenUpdating = True
+:    Application.ScreenUpdating = True
 End Sub
 
 Sub ProcessWorksheet(ByRef ws As Worksheet)
