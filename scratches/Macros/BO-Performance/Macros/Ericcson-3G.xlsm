@@ -12,7 +12,7 @@ Sub MainForEachWorksheet()
     ActiveWorkbook.SaveAs fileName:="C:\Users\aw474y\OneDrive - AT&T Mexico\Escritorio\rutina\Ericsson-3G.csv", FileFormat:=xlCSV, _
     CreateBackup:=False
     ActiveWindow.Close
-    Set csvWorkbook = Workbooks.Open(fileName:="C:\Users\aw474y\OneDrive - AT&T Mexico\Escritorio\rutina\Ericsson-3G.csv")
+    Set csvWorkbook = Workbooks.Open(fileName:="C:\Users\aw474y\OneDrive - AT&T Mexico\Escritorio\rutina\Ericsson-3G.csv.")
 
     ' Call SplitDataBasedOnC2Value function, this also set variable kpi_ws
     Call SplitDataBasedOnC2Value(csvWorkbook, kpi_ws)
@@ -138,6 +138,8 @@ Sub ProcessWorksheet(ws As Worksheet, ByRef kpi_ws As Worksheet, ByRef kpi_row A
     Dim mean As Double
     Dim cell As Range
     Dim c As Range
+    Dim mycell As Range
+    Dim mycell2 As Range
 
     ' loop over each cell in the row
     For Each c In ws.Rows(5).Cells ' Change '5' with the row you want to check
@@ -186,6 +188,18 @@ Sub ProcessWorksheet(ws As Worksheet, ByRef kpi_ws As Worksheet, ByRef kpi_row A
     ws.Cells(4, 2).Value = upper
 
     upper = CDbl(ws.Cells(4, "M").Value)  ' Assuming upper value is in cell M4
+    ' Define a new variable
+    For Each mycell In ws.Range("V:V") ' Update the range to the column where % PS_FAILURE_RRC values are in your sheet
+    If mycell.Value > 10 Then
+        mycell.Interior.Color = RGB(0, 0, 255) ' Blue
+    End If
+    Next mycell
+    ' Define a new variable
+    For Each mycell2 In ws.Range("Z:Z") ' Update the range to the column where % PS_FAILURE_RRC values are in your sheet
+    If mycell2.Value > 15 Then
+        mycell2.Interior.Color = RGB(0, 0, 255) ' Blue
+    End If
+    Next mycell2
     ' Colour cells in red based on KPI
     For Each cell In ws.Range("E1:" & ws.Cells(1, ws.Columns.Count).End(xlToLeft).Address)
         If cell.Value < mean Then
@@ -254,5 +268,4 @@ Sub RunProgram()
     Call MainForEachWorksheet
 
 End Sub
-
 
