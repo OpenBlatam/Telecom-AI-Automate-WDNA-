@@ -4,6 +4,10 @@ Literature Review
 https://github.com/promptslab/Awesome-Prompt-Engineering
 
 
+Awesome guide
+https://github.com/OpenAdaptAI/Prompt-Engineering-Guide
+
+
 
 ## References
 # Google Colab 
