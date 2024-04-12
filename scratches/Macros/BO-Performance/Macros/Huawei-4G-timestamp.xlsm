@@ -169,9 +169,6 @@ Sub RunProgram()
 
 End Sub
 
-
-
-
 Sub HuawEI4G()
   Call RunProgram
 End Sub
