@@ -1,6 +1,6 @@
 Option Explicit
-Sub CreatePivotChart()
 
+Sub CreatePivotChart()
     'Open Workbook
     Dim wb As Workbook
     Set wb = Workbooks.Open("C:\Users\AW474Y\OneDrive - AT&T Mexico\Escritorio\rutina\d.csv")
@@ -66,8 +66,7 @@ With cht.Chart
     .Axes(xlCategory, xlPrimary).AxisTitle.Text = "Date and Time"
     .Axes(xlValue, xlPrimary).HasTitle = True
     .Axes(xlValue, xlPrimary).AxisTitle.Text = pivotValue
-End With
-
+    End With
 End Sub
 
 Sub RectanguloEsquinasRedondeadas13_Click()
