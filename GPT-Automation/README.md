@@ -21,3 +21,10 @@ Dedicated GPTS
 
 Finance
 https://arxiv.org/abs/2303.17564
+
+
+Paper with good math formula
+
+https://arxiv.org/pdf/2312.08617.pdf
+his code of paper
+https://github.com/hkust-zhiyao/RTL-Coder
