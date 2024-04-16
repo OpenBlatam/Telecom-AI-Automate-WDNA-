@@ -264,8 +264,6 @@ Sub ProcessWorksheet(ws As Worksheet, ByRef kpi_ws As Worksheet, ByRef kpi_row A
 End Sub
 
 Sub RunProgram()
-
     Call MainForEachWorksheet
-
 End Sub
 

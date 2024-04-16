@@ -137,8 +137,7 @@ With cht.Chart
     .Axes(xlCategory, xlPrimary).AxisTitle.Text = "Date and Time"
     .Axes(xlValue, xlPrimary).HasTitle = True
     .Axes(xlValue, xlPrimary).AxisTitle.Text = pivotValue
-End With
-
+    End With
 End Sub
 
 Sub RectanguloEsquinasRedondeadas13_Click()
