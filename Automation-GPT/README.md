@@ -5,6 +5,9 @@ i
 
 ## References
 
+# Good papers 
+
+https://arxiv.org/pdf/2310.10508.pdf
 
 Good project with production.
 https://github.com/OpenAdaptAI/OpenAdapt
