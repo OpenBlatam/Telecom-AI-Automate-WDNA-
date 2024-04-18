@@ -1,5 +1,4 @@
 Option Explicit
-
 Sub CreatePivotChart()
     'Open Workbook
     Dim wb As Workbook
