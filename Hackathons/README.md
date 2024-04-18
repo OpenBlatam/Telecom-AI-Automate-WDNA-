@@ -2,7 +2,7 @@
 
 
 ## Description
-Looking for ideas that could be implemented in a hackathon.
+Looking for ideas that could be implemented in a hackathon or fast ideas.
 
 # Events 
 

@@ -1,14 +1,10 @@
-
-
-
-
-
 While coding a complete prompt engineering solution requires specific details about your chosen LLM and API, here's a framework to get you started with automating RAN alarm tickets using open-source LLMs:
 
 1. Choose an Open-Source LLM:
 
 Popular options include GPT-J (https://huggingface.co/EleutherAI/gpt-j-6b) and Jurassic-1 Jumbo (https://huggingface.co/models?p=136&sort=likes). Explore their capabilities and compatibility with your needs.
-2. Leverage Pre-trained Models:
+
+2.Leverage Pre-trained Models:
 
 Many open-source LLMs offer pre-trained models focused on specific tasks. Look for models pre-trained on technical documents or telecom data to improve accuracy.
 
@@ -48,7 +44,8 @@ Suggested Actions: (Prompt the LLM to recommend troubleshooting steps or suggest
 
 Utilize libraries like requests in Python to connect to your ticketing system API.
 Once the LLM generates the ticket content based on the prompt and alarm data, use the API to submit the ticket automatically.
-5. Training and Improvement:
+
+5.Training and Improvement:
 
 Gather real RAN alarm data with corresponding manually created tickets.
 Fine-tune the LLM with these paired datasets to improve the accuracy and relevance of generated tickets.

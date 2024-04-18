@@ -1,14 +1,9 @@
-
-
-
-
-
 Brainstorms ideas:
 
 
-With out specs
+Without specs
 
-Basically to hackathon idea to copy paste to auto execute comands of get and post the ideas in pre post tx of data
+Basically to hackathon idea to copy and paste to auto execute commands of get and post the ideas in pre post tx of data
 
 Components:
 
@@ -17,8 +12,8 @@ RPA
 LLMS 
 Agents
 
-Combine is a frankiesten of differents computaions that recreate the excel archices auto execute to remedy 
-Principals external comoponents:
+Combine is a frankiesten of different computations that recreate the excel architectures auto execute to remedy 
+Principals external components:
 
 
 Redemy 
