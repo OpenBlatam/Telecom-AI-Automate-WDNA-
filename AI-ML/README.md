@@ -12,14 +12,8 @@ You would need specialized network automation and orchestration tools, fault man
 
 ## References 
 
-
-
 Good AI datscenters of cisco provider
-
 https://www.youtube.com/watch?v=usSgHlF0zo0
 
-
-
 AI and networks
-
 https://ieeexplore.ieee.org/abstract/document/8954683
