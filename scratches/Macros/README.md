@@ -12,12 +12,9 @@ Process:
 First Get the data that is entropy alarm (big deal) than a tx of data in excel (macro) that could work in the best of the way 
 
 
-
 2 FOPs
 
-
 3 Transport
-
 
 4 RAN 
 

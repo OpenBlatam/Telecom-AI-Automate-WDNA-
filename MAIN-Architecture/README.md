@@ -22,3 +22,18 @@ Gestors
 Another networks
 MAT
 MACROS
+
+
+
+General thread:
+
+
+There is some graphics and stuff that is only n + 1 and n - 1 postions for run automate(macro, framework) stuff
+ is there posible create a LLMS, AI ML nad other stuff for run the independe form
+
+example:
+
+
+Give the kpi some dates for a specific INC , more n + 1 queries that could run for specific projects 
+
+
