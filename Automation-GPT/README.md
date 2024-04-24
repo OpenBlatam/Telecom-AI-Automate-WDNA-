@@ -20,3 +20,5 @@ https://www.adept.ai/
 List:
 https://github.com/croqaz/awesome-automation
 
+browser automation
+https://github.com/angrykoala/awesome-browser-automation
