@@ -16,3 +16,7 @@ https://github.com/OpenAdaptAI/OpenAdapt
 Closed
 https://www.adept.ai/
 
+
+List:
+https://github.com/croqaz/awesome-automation
+
