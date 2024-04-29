@@ -42,5 +42,43 @@ However, there is a serious security concern about executing code based on user-
 An safer alternative is to use the AI model to understand the intent of the user's command, and then have a predefined set of secure actions which can be executed based on the intent. In this case, for the command "plot x", the AI can understand that the user wants to plot a variable named "x", and then calls a safe function to generate this plot.
 
 
+     -----------------------
+     |     User Input     |
+     -----------------------
+               |
+               v
+-------------------------       ------------------------
+| Command Interpreter   |       |  OpenAI Wrapper   |
+| (OpenAI GPT-3)        |<----->| (Python openai package) |
+-------------------------       ------------------------
+       |          |
+       |          |
+       v          v
+-----------------  -----------------
+| Command Router |  | Data Store   |
+| (Python dict)  |->| (Pandas DataFrame) |
+-----------------  -----------------
+       |
+       v
+-------------------     --------------------------------
+| Action Handlers |     |    Data Visualization and    |
+| (Python funcs)  |     | Statistical Computation (matplotlib, numpy) |
+-------------------     --------------------------------
+       |
+       v
+--------------------------------------------------
+|                     Output                     |
+--------------------------------------------------
+
+User Input: Where the user enters commands for the system.
+Command Interpreter(OpenAI GPT-3): Interpretation of user commands using GPT-3.
+OpenAI Wrapper(Python openai package): Wrapper to interact with the OpenAI API.
+Command Router (Python dict): Used to map user commands to the functions that carry out those commands.
+Data Store (Pandas DataFrame): Store various data sets loaded from CSV files.
+Action Handlers (Python funcs): Functions that carry out actions based on the user's commands.
+Data Visualization and Statistical Computation (matplotlib, numpy): Functions for plotting data and calculating statistics like mean, median, etc.
+Output: This is where the results of user commands are printed for the user to see.
+
 Issue:
 he actual implementation will largely depend on how your datasets and plotting functions are set up.
+This may involve complex Natural Language Processing and Machine Learning tasks.
