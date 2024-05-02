@@ -51,6 +51,7 @@ def date_filter(data, start_date, end_date):
     return data[(data >= start_date) & (data <= end_date)]
 
 def execute_command(prompt):
+
     action_map = {
         'generate_plot': plot_data,
         'calculate_mean': calculate_mean,
@@ -66,6 +67,7 @@ def execute_command(prompt):
     )
 
     action = response.choices[0].text.strip()
+
     if 'Generate a plot of' in action:
         words = action.split(' ')
         kpi_name = words[4]
