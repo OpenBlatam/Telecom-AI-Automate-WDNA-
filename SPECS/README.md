@@ -10,7 +10,8 @@ Core specifications for AI-Automate clients can be found in specs. These are div
 
 
 
-## Desing goals
+## Desing
+goals
 
 The following are the broad design goals for the AI Automate specifications:
 
@@ -27,6 +28,8 @@ Automation Engine
 
 Hosts
 
+Kernel of OP Ais for automate
 
 
-
+DAG AI Object ?
+Is posible to create a AI object that runs in dags.
