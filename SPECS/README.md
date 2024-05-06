@@ -18,3 +18,15 @@ to minimize complexity, even at the cost of some losses in efficiency
 Creation the automate tasks in NOC and telecom industries
 Looking for the limits of automation tasks in any context.
 
+
+
+Manangement Node
+
+
+Automation Engine
+
+Hosts
+
+
+
+
