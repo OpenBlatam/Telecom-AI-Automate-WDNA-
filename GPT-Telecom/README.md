@@ -1,4 +1,4 @@
-# GPT for Telecom or any gpt automate instruciton
+# GPT for Telecom or any gpt automate task instruction commnad
 
 
 

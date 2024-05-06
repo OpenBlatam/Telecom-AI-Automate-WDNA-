@@ -1,4 +1,5 @@
 Sub ColorCellBlueIfUpperMoreThan15()
+
     Dim ws As Worksheet
     Dim cell As Range
     Dim upper As Variant
