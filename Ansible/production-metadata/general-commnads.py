@@ -4,17 +4,20 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
+from sklearn.datasets import make_regression
 import argparse
 from joblib import dump, load
 import matplotlib.pyplot as plt
 
 # ArgumentParser Setup
 parser = argparse.ArgumentParser(description='Train a Machine Learning model.')
-parser.add_argument('--url', type=str, help='URL of the data endpoint.')
-parser.add_argument('--model', type=str, default='linear', choices=['linear', 'randomforest'], help='Type of machine learning model to use.')
+parser.add_argument('--url', type=str, required=True, help='URL of the data endpoint.')
+parser.add_argument('--model', type=str, default='linear', choices=['linear', 'randomforest'],
+                    help='Type of machine learning model to use.')
+
 
 def train_model(url, model_type):
-    # Fetch time series data from URL.
+    # Fetch data from the API
     response = requests.get(url)
     data = response.json()
 
@@ -34,9 +37,9 @@ def train_model(url, model_type):
 
     # Train the model.
     if model_type == 'linear':
-      model = LinearRegression()
+        model = LinearRegression()
     elif model_type == 'randomforest':
-      model = RandomForestRegressor()
+        model = RandomForestRegressor()
 
     model.fit(x_train, y_train)
 
@@ -51,14 +54,15 @@ def train_model(url, model_type):
     print(f'Mean Squared Error: {mse:.2f}')
 
     # Plot actual vs predicted values.
-    plt.figure(figsize=(10,5))
-    plt.scatter(x_test, y_test, color='black', label = 'Actual')
-    plt.plot(x_test, y_pred, color='blue', linewidth=2, linestyle='-', label ='Predicted')
+    plt.figure(figsize=(10, 5))
+    plt.scatter(x_test, y_test, color='black', label='Actual')
+    plt.plot(x_test, y_pred, color='blue', linewidth=2, linestyle='-', label='Predicted')
     plt.xlabel('Time')
     plt.ylabel('KPI')
     plt.title('Actual vs Predicted Values')
     plt.legend()
     plt.show()
+
 
 if __name__ == '__main__':
     args = parser.parse_args()

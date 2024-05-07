@@ -12,8 +12,9 @@ from joblib import dump, load
 logging.basicConfig(filename='training.log', level=logging.INFO)
 
 parser = argparse.ArgumentParser(description='Train a model.')
-parser.add_argument('--url', type=str, help='URL of the data endpoint')
-parser.add_argument('--model', type=str, default='randomforest', choices=['linear','randomforest'], help='Type of machine learning model to use')
+parser.add_argument('--url', type=str, default='http://example.com', help='URL of the data endpoint')
+parser.add_argument('--model', type=str, default='randomforest', choices=['linear', 'randomforest'],
+                    help='Type of machine learning model to use')
 
 def add_datetime_features(df):
     df['year'] = df['time'].dt.year
