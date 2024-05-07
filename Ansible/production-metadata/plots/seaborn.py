@@ -1,17 +1,43 @@
-import argparse
+import openai
 import pandas as pd
-import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error
+import argparse
+import matplotlib.pyplot as plt
 
+# your OpenAI API key
+openai.api_key = 'your-openai-api-key'
+
+
+def interact_with_model(prompt):
+    model_id = "gpt-3.5-turbo"
+    response = openai.ChatCompletion.create(
+        model=model_id,
+        messages=[
+            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "user", "content": prompt}
+        ]
+    )
+    return response['choices'][0]['message']['content']
 
 def train_model(df, model_type):
+    df = df.copy()
     df['time'] = pd.to_datetime(df['time'])
     df.set_index('time', inplace=True)
-
     train = df[df.index.year < 2023]
     test = df[df.index.year >= 2023]
+
+    if train.empty:
+        print('Train DataFrame is empty.')
+        print('Original DataFrame:')
+        print(df)
+        return
+    if test.empty:
+        print('Test DataFrame is empty.')
+        print('Original DataFrame:')
+        print(df)
+        return
 
     if model_type == 'linear':
         model = LinearRegression()
@@ -38,6 +64,18 @@ parser = argparse.ArgumentParser(description='Train model')
 parser.add_argument('--model', type=str, help='Type of model (linear or randomforest).', default='linear')
 
 if __name__ == '__main__':
+    user_input = input("Please enter your request: ")
+
+    user_command = user_input.split("with date ")
+
+    if "of " in user_command[0]:
+        network_name = str(user_command[0].split("of ")[1].strip())
+    else:
+        print("The command you entered is not in the correct format.")
+        exit(1)
+
+    date = str(user_command[1].strip())
+
     data = [
         {"time": "2021-02-16T20:00:00", "kpi": 12300.0},
         {"time": "2021-03-16T20:00:00", "kpi": 12350.0},
@@ -48,6 +86,12 @@ if __name__ == '__main__':
         {"time": "2023-05-20T20:00:00", "kpi": 13200.0},
         {"time": "2023-06-21T20:00:00", "kpi": 13300.0}
     ]
+
     df = pd.DataFrame(data)
+    filtered_df = df[df['time'] == date]
+
+    df = pd.DataFrame(data)
+    filtered_df = df[df['time'] == user_command[1]]
+
     args = parser.parse_args()
-    train_model(df, args.model)
+    train_model(filtered_df, user_command[0])  # OpenAI's response is expected to be in the format "model date"
