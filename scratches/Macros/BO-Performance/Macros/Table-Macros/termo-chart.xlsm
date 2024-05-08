@@ -1,6 +1,7 @@
 Option Explicit
 
 Sub CreatePivotChart()
+
   'Open Workbook
   Dim wb As Workbook
   Set wb = Workbooks.Open("C:\Users\AW474Y\OneDrive - AT&T Mexico\Escritorio\rutina\d.csv")

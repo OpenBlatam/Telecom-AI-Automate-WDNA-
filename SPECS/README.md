@@ -10,7 +10,8 @@ Core specifications for AI-Automate clients can be found in specs. These are div
 
 
 
-## Desing goals
+## Desing
+goals
 
 The following are the broad design goals for the AI Automate specifications:
 
@@ -18,3 +19,17 @@ to minimize complexity, even at the cost of some losses in efficiency
 Creation the automate tasks in NOC and telecom industries
 Looking for the limits of automation tasks in any context.
 
+
+
+Manangement Node
+
+
+Automation Engine
+
+Hosts
+
+Kernel of OP Ais for automate
+
+
+DAG AI Object ?
+Is posible to create a AI object that runs in dags.

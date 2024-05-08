@@ -16,3 +16,4 @@ plt.title('KPI over Time')
 plt.xlabel('Time')
 plt.ylabel('KPI')
 plt.show()
+

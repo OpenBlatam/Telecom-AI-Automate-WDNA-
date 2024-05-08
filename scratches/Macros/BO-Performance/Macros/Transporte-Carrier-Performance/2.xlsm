@@ -1,4 +1,6 @@
+
 Sub OpenFilesAndExtractData()
+
     Dim wb As Workbook
     Dim ws As Worksheet
     Dim i As Integer

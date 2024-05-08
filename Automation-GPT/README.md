@@ -1,4 +1,9 @@
-i
+
+
+Description: 
+
+Research about GPT and AIs that automate tasks in any context.
+
 
 
 
