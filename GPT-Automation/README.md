@@ -2,6 +2,8 @@
 
 ## How to use GPT for automation
 
+For example, the GPT-3 model, which has 175 billion parameters, would require 3.14×1023
+FLOPS for training, translating to 355 GPU-years and a cost of USD 4.6 million on a V100 GPU [90]. Memory is another bottleneck; the model’s 175 billion parameters would need 700 GB of memory, far exceeding the capacity of a single GPU
 
 
 ## References 
