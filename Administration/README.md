@@ -5,7 +5,7 @@
 excels
 https://exinfm.com/mobile/free_spreadsheets.htm
 
-
+https://troubled-syringa-a3b.notion.site/FINANCE-DASHBOARD-e8f55b1f0cf84e6a9d2cf0e34e041d81
 
 miro
 https://miro.com/es/plantillas/investigacion/
