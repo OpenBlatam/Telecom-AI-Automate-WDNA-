@@ -2,6 +2,12 @@
 
 
 
+excels
+https://exinfm.com/mobile/free_spreadsheets.htm
+
+
+
+miro
 https://miro.com/es/plantillas/investigacion/
 
 
