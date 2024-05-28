@@ -1,6 +1,16 @@
 
 
 
+market research
+Wordlwide
+
+https://www.hostinger.mx/tutoriales/empresas-de-desarrollo-web
+
+
+Latam
+
+https://branch.com.co/marketing-digital/top-10-de-las-mejores-agencias-de-desarrollo-web-en-mexico/
+
 
 excels
 https://exinfm.com/mobile/free_spreadsheets.htm

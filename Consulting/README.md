@@ -22,7 +22,9 @@ https://github.com/ethereum?q=&type=all&language=javascript&sort=
 https://alistair.sh/
 
 
-blacks
+## Desing colors
+
+black color
 
 https://github.com/DeFiCh/defichain.com
 
