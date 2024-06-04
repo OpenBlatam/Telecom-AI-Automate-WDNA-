@@ -12,6 +12,8 @@ Looking for the AI in mobile devices and look for decent results in a UI more si
 
 https://arxiv.org/abs/2304.07061
 
+Prompt backends 
+https://github.com/ferrislucas/promptr
 
 
 
@@ -104,3 +106,30 @@ https://github.com/ACHultman/wanderlust
 api
 
 https://github.com/MLT-OSS/open-assistant-api
+
+
+Ai voice based 
+
+https://github.com/haider-nawaz/dr_emma
+
+
+
+Needed x input to y input consumer beahaviour 
+
+pdf to voice 
+https://github.com/aleeza23/VoiceBooker
+
+facturars parsers
+
+https://github.com/taaha/invoice_parser
+
+text to speech gpt 4
+
+https://github.com/wasifuddin/Athena_Lab/blob/main/models/faq_gpt.py
+
+
+voice ecommerce 
+
+https://github.com/devraftel/nivx/tree/main
+
+
