@@ -54,5 +54,53 @@ voice components
 
 https://github.com/falatekmen/ChatGPT-Assistant/blob/main/app/screens/Whisper.tsx
 
+login components
+
+https://github.com/WrathChaos/react-native-login-screen
+
+https://github.com/The-Unleashed-Club/openMind/blob/main/src/Screens/LoginScreen.tsx
+
+https://github.com/venits/react-native-login-template
+
+firebase login components
+
+https://github.com/oijusti/react-native-firebaseui-auth
+
+https://github.com/invertase/react-native-firebase-authentication-example
 
 
+
+chat UI 
+https://github.com/FaridSafi/react-native-gifted-chat
+
+https://github.com/GetStream/stream-chat-react-native
+
+
+purchases 
+https://github.com/RevenueCat/react-native-purchases
+
+https://apphud.com/
+
+
+formats 
+
+https://github.com/Azure-Samples/azure-search-openai-javascript/tree/main/packages/indexer/src/lib/formats
+
+
+Creatiosn of gpts
+
+https://github.com/marcolivierbouch/OpenAssistantGPT
+
+
+markdown render
+
+https://github.com/mientjan/react-native-markdown-renderer
+
+### Assistan AI
+
+Travel guide
+https://github.com/ACHultman/wanderlust
+
+api
+
+https://github.com/MLT-OSS/open-assistant-api
