@@ -132,4 +132,10 @@ voice ecommerce
 
 https://github.com/devraftel/nivx/tree/main
 
+whatsapp chatbot
 
+https://github.com/SherefAbolmagd/prescam
+
+realtime news
+
+https://lablab.ai/event/assistants-api-llamaindex-mongodb-battle/crestians-ai/cyberguardian
