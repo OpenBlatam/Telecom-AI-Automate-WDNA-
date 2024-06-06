@@ -1,5 +1,6 @@
 
 Is not working if you
+ Social media companies restrict indexing and do not permit external product links in their apps to ensure that users stay on the platform,
 
 Cuando Yana fue lanzada al mercado durante los primeros 6 meses reportaron la suscripción de 80 mil usuarios,
 

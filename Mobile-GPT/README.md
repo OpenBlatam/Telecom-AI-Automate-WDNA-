@@ -15,6 +15,12 @@ https://arxiv.org/abs/2304.07061
 Prompt backends 
 https://github.com/ferrislucas/promptr
 
+React native ai template
+https://github.com/dabit3/react-native-ai
+
+react native voice template gemini
+
+https://github.imc.re/Amery2010/TalkWithGemini
 
 
 Templates mobile
@@ -139,3 +145,40 @@ https://github.com/SherefAbolmagd/prescam
 realtime news
 
 https://lablab.ai/event/assistants-api-llamaindex-mongodb-battle/crestians-ai/cyberguardian
+
+financial assistant
+https://github.com/nxhieu3102/OPENAI-HACKATHON
+
+medical
+
+https://lablab.ai/event/gpt-4-powered-app-creation-hackathon/tumer/simplimedi-assist
+
+instagram data play
+
+https://lablab.ai/event/gpt-4-powered-app-creation-hackathon/influencer-assist/shopassist
+
+
+calculations in fotos like nutritions in something
+
+
+https://github.com/aafaq55/Nutrion-Extraction-using-Static-Image/blob/main/app.py
+
+
+
+AutoGPT 
+https://github.com/Significant-Gravitas/AutoGPT
+
+
+Extract documents (closed soruce) google solution
+
+
+https://developers.google.com/ml-kit/vision/doc-scanner?hl=es-419
+
+
+
+AI on eth 
+Do smart contract with AI
+https://ethglobal.com/showcase/factor-ai-ywmws
+
+Do a x api a monetize 
+https://github.com/Quix44/gitpaid/tree/main
